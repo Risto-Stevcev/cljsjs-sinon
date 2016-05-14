@@ -45,3 +45,7 @@ After adding the above dependency to your project you can require the packaged l
 (.respond server)
 (js/sinon.assert.calledWith callback mock-response)
 ```
+
+## Important
+
+It's important to note that Sinon isn't meant to be used in production or fed through minifiers. It's actual use case is either for unit testing or to mock a backend during frontend development. Therefore, it should always be run with `optimizations :none`.
