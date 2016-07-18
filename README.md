@@ -1,12 +1,10 @@
 # cljsjs/sinon
 
-[](dependency)
-```clojure
-[cljsjs/sinon "1.17.3-0"] ;; latest release
-```
-[](/dependency)
+[![Clojars](https://img.shields.io/clojars/v/cljsjs/sinon.svg?maxAge=2592000)](https://clojars.org/cljsjs/sinon)
 
-After adding the above dependency to your project you can require the packaged library like so:
+Standalone test spies, stubs and mocks for JavaScript.
+
+After adding the dependency to your project you can require the packaged library like so:
 
 ```clojure
 (ns application.core
